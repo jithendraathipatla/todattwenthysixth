@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.abcd{
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 8fr;
+}
+
+.abcd div{
+  margin-bottom: 10px;
+}
+
+.children{
+  display: inline-block;
+}
+
+.children button{
+  margin-left: 40px;
+}
+
+.Adult{
+  display: inline-block;
+}
