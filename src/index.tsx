@@ -18,7 +18,13 @@ const App = () => {
   const inciment = () => {
       setstate1(state1 + 1);
       setmul((state1*150)+150);
-      setchildren(state1+1);
+      setchildren((state1*1)+1);
+      if(state1>=4){
+        setAdult(1);
+      }
+      if(state1>=7){
+        setAdult(2);
+      }
   }
  
   const diciment = () => {
@@ -30,8 +36,8 @@ const App = () => {
   const inciment1 = () => {
     setstate2(state2 + 1);
     setmul1((state2*200)+200);
-    setchildren(state1);
-    setAdult(state1);
+    setchildren((state2*2)+2);
+    setAdult((state2*1)+1);
   }
 
    const diciment1 = () => {
