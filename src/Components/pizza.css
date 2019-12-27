@@ -1,17 +1,19 @@
 .mainbox{
     border: 1px solid #eee;
+    text-align: center;
 }
 .beautify{
     display: grid;
-    grid-template-columns: 0fr 0.1fr 0fr 0.1fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr 0fr 3fr;
     grid-gap: 4px;
 }
 
 .beautify button{
-    border-radius: 50%;
+    border-radius: 5%;
     padding:5px;
     border: none;
     margin:-5px 10px 10px 10px;
     font-size: 16px;
     box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.2);
 }
+
